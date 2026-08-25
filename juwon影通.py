@@ -79,7 +79,7 @@ cookies = {
 # ========== 本地日志输出配置 ==========
 current_user = getpass.getuser()
 if os.name == "nt":  # Windows
-    LOG_FILE = r""C:\Users\joohe\Documents\ahof_br0826-main_gl\ahof_br0826-main\JUWON影通.csv""
+    LOG_FILE = r"D:\fansign\ing\ahof_br0826\JUWON影通.csv"
 else:  # Linux / macOS
     LOG_FILE = os.path.expanduser("~/yena线下签售.csv")
 
